@@ -9,6 +9,7 @@ This project involves building a 3D segmentation model to segment abdominal orga
    git clone <repository_url>
    cd <repository_name>
 
+
 2. Install dependencies:
 pip install -r requirements.txt
 
@@ -18,16 +19,16 @@ pip install -r requirements.txt
 
 4.Train the model:
 
-python src/train.py
+run file (train.py)
+
 
 5.Run inference and evaluation:
 
-python src/run.py
-
+run file (run.py)
 
 
 6. **3D Visualization**
 
-Create a script to visualize the 3D segments if you haven't already. You can use libraries like `matplotlib` or `vtk` to render and save videos. Save it as `visualize.py` in `src/`:
+run file (visualize.py) 
 
 
